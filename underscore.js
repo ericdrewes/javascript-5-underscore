@@ -262,11 +262,11 @@ const myEmployees = [
 	}
 ];
 
-const myEmployeesAddresses = _.pluck(myEmployees, 'address'); // use pluck to get addresses here.
+; // use pluck to get addresses here.
 
 // Now we want to use pluck to get an array of ages of the employees.
 
-const myEmployeesAges = _.pluck(myEmployees, 'age'); // use pluck to get ages here.
+; // use pluck to get ages here.
 
 // union
 //  Union lets us take 2 arrays, and create a new array that only has 1 entry for
@@ -306,24 +306,7 @@ const breeFriendsEmails = [
 	'dave@gmail.com'
 ];
 
-const listToSendEmailsTo = _.union([
-	'alton.brown@gmail.com',
-	'betty.white@gmail.com',
-	'ron.paul@gmail.com',
-	'mr.giggles@gmail.com',
-	'mrs.giggles@gmail.com',
-	'black.adder@gmail.com',
-	'red.power@ranger.com',
-	'pikachu@gmail.com',
-	'james@gmail.com',
-	'batman@gothan.gov',
-	'betty.white@gmail.com',
-	'mr.giggles@gmail.com',
-	'mrs.giggles@gmail.com',
-	'stacey@gmail.com',
-	'brent@gmail.com',
-	'dave@gmail.com'
-]); // Put underscore here to make list of the union of the two address.
+const listToSendEmailsTo = ; // Put underscore here to make list of the union of the two address.
 
 // intersection
 //  Intersetction lets us take two arrays, and create a new array that only
@@ -336,28 +319,7 @@ const listToSendEmailsTo = _.union([
 // Bob and Bree have decided that instead of inviting everyone they know to their
 // party.  They are instead only going to invite those people that they both know.
 
-const listOfSharedEmails = _.intersection(
-	[
-		'alton.brown@gmail.com',
-		'betty.white@gmail.com',
-		'ron.paul@gmail.com',
-		'mr.giggles@gmail.com',
-		'mrs.giggles@gmail.com',
-		'black.adder@gmail.com'
-	],
-	[
-		'red.power@ranger.com',
-		'pikachu@gmail.com',
-		'james@gmail.com',
-		'batman@gothan.gov',
-		'betty.white@gmail.com',
-		'mr.giggles@gmail.com',
-		'mrs.giggles@gmail.com',
-		'stacey@gmail.com',
-		'brent@gmail.com',
-		'dave@gmail.com'
-	]
-);
+const listOfSharedEmails = 
 // Use underscore to create the list that are in both lists
 
 // groupBy
@@ -422,7 +384,7 @@ const purchases = [
 	{ month: 'February', price: 23.65 }
 ];
 
-const purchasesByMonth = _.groupBy(purchases, 'month'); // Use groupBy to group the purchases by the month that they were made.
+; // Use groupBy to group the purchases by the month that they were made.
 
 // Bonus Points
 const totalByMonth = 0; // Use the groupded purchasesByMonth and reduce to create a totalByMonth object.
